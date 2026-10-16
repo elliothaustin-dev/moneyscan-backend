@@ -1,2 +1,12 @@
+[project]
+name = "moneyscan-backend"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "requests",
+    "python-multipart"
+]
+
 [tool.vercel]
 entrypoint = "api.scan:app"
